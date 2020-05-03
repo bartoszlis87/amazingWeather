@@ -1,0 +1,56 @@
+{
+  "name": "amazingweather",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "out.js",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "node": "^13.13.0",
+    "nvm": "0.0.4",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/runtime": "^7.9.2",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.1",
+    "compression-webpack-plugin": "^1.1.12",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "keywords": [
+    "Weather App"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "ie 6-8",
+    "Firefox > 20",
+    "since 2015"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartoszlis87/amazingWeather.git"
+  },
+  "author": "Bartosz Lis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartoszlis87/amazingWeather/issues"
+  },
+  "homepage": "https://github.com/bartoszlis87/amazingWeather#readme"
+}
