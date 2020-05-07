@@ -11,7 +11,7 @@ module.exports = {
     entry: ["whatwg-fetch", `./${entryPath}/js/${entryFile}`],
     output: {
         filename: "out.js",
-        path: path.resolve(__dirname, `${entryPath}/build`)
+        path: path.resolve(__dirname, `build/`)
     },
     mode: 'development',
     devtool: "source-map",
